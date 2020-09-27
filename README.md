@@ -1,4 +1,4 @@
-# processing_GravityFun02
+# processing_gravityFun02
 
 An exploration in simulating gravity in processing. A video of the output is included in this repository. 
 
