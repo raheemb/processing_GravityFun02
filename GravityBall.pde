@@ -8,13 +8,13 @@ class GravityBall {
   
   // Create a GravityBall object
   GravityBall (PVector anchor_, PVector pos_, PVector vel_, color c_, float rad_) {  
-    anchor = anchor_;             // location of gravitational center
-    pos = pos_;                   // particle initial position
-    r = PVector.sub(anchor, pos); // vector from the position to the anchor
-    vel = vel_;                   // particle initial velocity
-    acc = new PVector(0,0);       // initial acceleration
-    c = c_;                       // particle color
-    rad = rad_;                   // radius of the particle
+    anchor = new PVector(anchor_.x, anchor_.y); // location of gravitational center
+    pos = new PVector(pos_.x, pos_.y);          // particle initial position
+    r = PVector.sub(anchor, pos);               // vector from the position to the anchor
+    vel = new PVector(vel_.x, vel_.y);          // particle initial velocity
+    acc = new PVector(0,0);                     // initial acceleration
+    c = c_;                                     // particle color
+    rad = rad_;                                 // radius of the particle
   }
   
   void update() { 
