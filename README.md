@@ -1,6 +1,6 @@
 # processing_GravityFun02
 
-An exploration of simulating gravity in processing. A video of the output is included in this repository. 
+An exploration in simulating gravity in processing. A video of the output is included in this repository. 
 
 To generate your own videos, uncomment the line "saveFrame("frames/#######.png");" from the code. 
 If you have ffmpeg installed from your terminal you can then use the command 
